@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tiro Telugu', serif;
+}
+
+.navLinks{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainContainer{
+    background-color: black;    
+    color: white;
+    background-image: url("./images/drone.avif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innerDiv{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+.synHead{
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.syninfo{
+    margin: 15px 50px 0px 50px;
+    /* letter-spacing: 0.5px; */
+    font-size: 1rem;
+}
+
+.photoDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.Synphoto1{
+    background-color: aqua;
+    width: 20vw;
+    height: 30vh;
+    margin: 0px 20px;
+    background-image: url("./images/synergy1.avif");
+    background-size: 100% 100%;
+}
+.Synphoto2{
+    background-color: aqua;
+    width: 20vw;
+    height: 30vh;
+    margin: 0px 20px;
+    background-image: url("./images/synergy1.avif");
+    background-size: 100% 100%;
+    }
