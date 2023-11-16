@@ -59,3 +59,42 @@
     background-image: url("./images/synergy1.avif");
     background-size: 100% 100%;
     }
+
+
+
+    @media screen and (max-width:600px) {
+        .nav{
+    
+            height: 20vh;
+    
+        }
+    
+        .Navul{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .navLinks{
+            width: 90%;
+        }
+    
+        .Navli{
+            font-size: 16px;
+        }
+    
+        .sliderClass{
+            height: 20vh;
+    
+        }
+    
+        .sliderButton{
+            height: 60%;
+        }
+    
+        .carousel-item{
+            height: 20vh;
+        }
+    
+    
+    }
+    
