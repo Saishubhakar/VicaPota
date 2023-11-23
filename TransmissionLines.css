@@ -4,17 +4,51 @@
     font-family: 'Tiro Telugu', serif;
 }
 
-.navLinks{
-    width: 70%;
+.nav{
+    background-color: hsla(0,0%,57.6%,.1);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 5px 0px #000;
+    font-size: 1.1rem;
+}
+
+.logo{
+    width: 9vw;
+    height: 10vh;
+    background-image: url("./images/logo.enc");
+    background-size: 100% 100%;
+    margin-right: 70px;
+}
+
+.nav-link{
+    color: #000;
+}
+
+.mainNav{
+    margin-left: 70px;
+}
+
+.dropdown{
+    z-index: 1;
+}
+
+.mainul{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+.navbar-toggler{
+    background-image: url("./images/menubar.png");
+    background-size: 100% 100%;
+}
+
+
+
 .mainContainer{
     background-color: black;    
     color: white;
-    background-image: url("./images/drone.avif");
+    background-image: url("./images/solarenergy.avif");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -63,25 +97,10 @@
 
 
     @media screen and (max-width:600px) {
-        .nav{
-    
-            height: 20vh;
-    
+        .mainNav{
+            margin: 0;
         }
-    
-        .Navul{
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .navLinks{
-            width: 90%;
-        }
-    
-        .Navli{
-            font-size: 16px;
-        }
-    
+        
         .sliderClass{
             height: 20vh;
     
