@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tiro Telugu', serif;
+}
+
+.nav{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: hsla(0,0%,57.6%,.1);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 5px 0px #000;
+    font-size: 1.1rem;
+}
+
+.logo{
+    width: 9vw;
+    height: 10vh;
+    background-image: url("./images/logo.enc");
+    background-size: 100% 100%;
+    margin-right: 70px;
+}
+
+.nav-link{
+    color: #000;
+}
+
+.mainNav{
+    margin-left: 70px;
+}
+
+.dropdown{
+    z-index: 1;
+}
+
+.mainul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactinfo{
+    margin: 0px 10px;
+}
+
+
+.TeamHead{
+    margin: 40px 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Partners{
+    margin: 30px 20px 0px 20px;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.row1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row2{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#card{
+    height: 0vh;
+    box-shadow: none;
+}
+
+#cardimage{
+    border: none;
+}
+
+#Role{
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(190, 189, 189);
+}
+
+#company{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.buttondiv{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+#linkedin:hover{
+    background-color: yellow;
+    color: #000;
+}
+
+.contactHead{
+    margin: 30px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.queryHead{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.query{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.signbox{
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signHead{
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+.mainSignup{
+    margin-top:5px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+}
+
+.input{
+    height: 6vh;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+    padding-left: 5px;
+}
+
+
+
+#query{
+    margin-top: 20px;
+    padding: 4px 0px 0px 10px;
+    outline: none;
+    border: 2px solid black;
+    font-size: 17px;
+}
+
+#submitbutton{
+    margin-top: 10px;
+}
+
+.socialmediaLinks{
+    margin: 30px 0px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+    margin: 50px 0px 0px 0px;
+}
+
+.links{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    width: 98.5vw;
+    margin: 50px 0px 20px 0px;
+
+}
+
+.Linkul{
+    height: 20vh;
+    width: 60vw;
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Linkli{
+    width: 40%;
+    height: 10vh;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.fa{
+    background-color: #000;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.fa:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scaleX(1.05);
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
+}
+
+
+@media screen and (max-width:1000px){
+    .sliderButton{
+        height: 65%;
+    }
+    .Partners{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 140vh;
+    }
+
+    .row1{
+        height: 50%;
+        width: 100%;
+    }
+    
+    .row2{
+        height: 50%;
+        width: 100%;
+    }
+
+    #Role{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .signbox{
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .TeamHead{
+        font-size: 25px;
+    }
+
+    .company1{
+        width: 40%;
+    }
+
+    .signbox{
+        width: 70%;
+    }
+
+    .socialmediaLinks{
+        font-size: 21px;
+    }
+
+    .Linkul{
+        width: 100%;
+    }
+
+    .fa{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+}
