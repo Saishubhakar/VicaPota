@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Havelock Titling';
+}
+
+.coremembers{
+    margin-top: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.membersdetails{
+    margin: 20px 0px 0px 10px;
+    height: 280vh;
+}
+
+.membersinfo{
+    font-size: 15px;
+}
+
+.partner1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 22%;
+}
+
+.photo{
+    height: 90%;
+    width: 40%;
+    background-image: url("./images/partner1.jpg");
+    background-size: 100% 100%;
+}
+
+.partnerdetails{
+    width: 40%;
+}
+
+.role{
+    font-size: 13px;
+}
+
+.partnerinfo{
+    font-size: 12px;
+}
+
+
+#partner1{
+    background-image: url("./images/partner1.jpg");
+}
+
+#partner2{
+    background-image: url("./images/partner2.jpg");
+}
+
+#partner3{
+    background-image: url("./images/partner3.jpg");
+}
+
+#partner4{
+    background-image: url("./images/partner4.jpg");
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .coremembers{
+        font-size: 28px;
+    }
+
+
+    .membersinfo{
+        font-size: 10px;
+    }
+
+    .partner1{
+        height: 20%;
+    }
+
+    .photo{
+        height: 70%;
+    }
+
+    .partnername{
+        font-size: 25px;
+    }
+
+    .role{
+        font-size: 8px;
+    }
+
+    .partnerinfo{
+        font-size: 10px;
+    }
+
+}
