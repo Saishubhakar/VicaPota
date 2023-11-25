@@ -24,13 +24,17 @@
     font-size: 14.5px;
 }
 
+.bolt{
+    font-size: 30px;
+}
+
 .mainNav{
     margin-left: 70px;
 }
 
-.dropdown{
+.dropdown-menu{
     z-index: 1;
-}
+}   
 
 .mainul{
     width: 100%;
@@ -100,19 +104,19 @@
 
 
 #estate:hover{
-    background-color: hsla(0, 81%, 40%, 0.4);
-}
-
-#design:hover{
-    background-color: rgba(128, 128, 128, 0.450);
-}
-
-#energy:hover{
     background-color: hsla(125, 81%, 40%, 0.447);
 }
 
-#synergy:hover{
+#design:hover{
     background-color: hsla(192, 82%, 40%, 0.445);
+}
+
+#energy:hover{
+    background-color: hsla(0, 90%, 51%, 0.35);
+}
+
+#synergy:hover{
+    background-color: rgba(128, 128, 128, 0.450);
 }
 
 .card-img-top{
