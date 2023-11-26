@@ -24,6 +24,10 @@
     color: #000;
 }
 
+#none{
+    background-color: none;
+}
+
 .mainNav{
     margin-left: 70px;
 }
