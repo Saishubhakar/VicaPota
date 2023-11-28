@@ -17,7 +17,9 @@
       integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv"
       crossorigin="anonymous"
     />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -44,17 +46,20 @@
         <ul class="mainul navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="Energy.htm"
-              ><i class="bolt fa fa-bolt"></i> <span class="sr-only">(current)</span></a
+              ><i class="bolt fa fa-bolt"></i>
+              <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="Estate.htm"
-              ><i class="bolt fa fa-globe"></i><span class="sr-only">(current)</span></a
+              ><i class="bolt fa fa-globe"></i
+              ><span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="Design.htm"
-              ><i class="bolt fa fa-pen"></i><span class="sr-only">(current)</span></a
+              ><i class="bolt fa fa-pen"></i
+              ><span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item dropdown">
@@ -82,21 +87,56 @@
     </nav>
 
     <div class="Container">
-      <h2 class="synHead">ESTATE</h2>
+      <h2 class="synHead" id="estate">ESTATE</h2>
 
       <div class="synDiv">
-        <div class="syninfo">
-          Real estate refers to property consisting of land and the buildings on
-          it, along with its natural resources such as crops, minerals, or
-          water. It encompasses residential, commercial, and industrial
-          properties, as well as vacant land. The real estate market involves
-          the buying, selling, and leasing of these properties, driven by
-          factors such as location, economic conditions, and market demand. Real
-          estate is a significant component of wealth for individuals and a key
-          driver of economic activity, influencing both local and global
-          economies. It plays a crucial role in shaping communities, providing
-          homes and spaces for businesses, and serving as an investment asset
-          class.
+        <div class="Energyintro">
+          <div class="energyphoto"></div>
+          <div class="energycategories">
+            <div class="catergory1" id="estateCategory">
+              <div class="catphoto" id="landSvg"></div>
+              <div class="catinfo">
+                <h4 id="estate">Land</h4>
+                <p class="description">
+                  We have demonstrated capability as an EPC player and
+                  Integrated Power Producer, by way of developing and
+                  commissioning 1024 MW of wind power projects in Andhra
+                  Pradesh, of which 210 MW projects were developed under two
+                  SPVs. We have an active MoU with GoAP to install 5000 MW of
+                  wind power over the next few years
+                </p>
+              </div>
+            </div>
+
+            <div class="catergory1" id="estateCategory">
+              <div class="catphoto" id="housingSvg"></div>
+              <div class="catinfo">
+                <h4 id="estate">Housing</h4>
+                <p class="description">
+                  We have significant engineering capabilities for solar energy
+                  projects Through our MoU with GoAP, we are on track to install
+                  2.5 GW of solar energy projects. Our commitment to NREDCAP to
+                  develop 2000 MW of solar energy projects showcases our
+                  investment in this area
+                </p>
+              </div>
+            </div>
+
+            <div class="catergory1" id="estateCategory">
+              <div class="catphoto" id="villaSvg"></div>
+              <div class="catinfo">
+                <h4 id="estate">Villa</h4>
+                <p class="description">
+                  We have demonstrated capability as an EPC player and
+                  Integrated Power Producer, by way of developing and
+                  commissioning 1024 MW of wind power projects in Andhra
+                  Pradesh, of which 210 MW projects were developed under two
+                  SPVs. We have an active MoU with GoAP to install 5000 MW of
+                  wind power over the next few years
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="synCategories">
@@ -104,56 +144,61 @@
             <div class="card">
               <img src="./images/land.avif" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Land</h5>
+                <h5 class="card-title" id="estate">Land</h5>
                 <p class="card-text">
                   We got the best deals for land. And give value for you money
                 </p>
-                <div class = "knowButton"><button class="btn btn-success">Know more</button></div>
+                <div class="knowButton">
+                  <button class="btn btn-success">Know more</button>
+                </div>
               </div>
             </div>
 
             <div class="card">
-
               <img src="./images/house.avif" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Housing</h5>
+                <h5 class="card-title" id="estate">Housing</h5>
                 <p class="card-text">
                   We can provide Housing facilities at affordable prices
                 </p>
-                <div class = "knowButton"><button class="btn btn-success">Know more</button></div>
+                <div class="knowButton">
+                  <button class="btn btn-success">Know more</button>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="divTwo">
             <div class="card">
-              
               <img
                 src="./images/brokerage.avif"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Brokerage</h5>
+                <h5 class="card-title" id="estate">Brokerage</h5>
                 <p class="card-text">
                   We can obtain information and provide you with the best deals
                   through Brokerage
                 </p>
 
-                <div class = "knowButton"><button class="btn btn-success">Know more</button></div>
+                <div class="knowButton">
+                  <button class="btn btn-success">Know more</button>
+                </div>
               </div>
             </div>
 
             <div class="card">
-
               <img src="./images/villa.avif" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Villa</h5>
+                <h5 class="card-title" id="estate">Villa</h5>
                 <p class="card-text">
                   We also provide a Villa all over india for the best prices in
                   the whole country
                 </p>
-                <div class = "knowButton"><button class="btn btn-success">Know more</button></div>
+                <div class="knowButton">
+                  <button class="btn btn-success">Know more</button>
+                </div>
               </div>
             </div>
           </div>
@@ -161,8 +206,10 @@
       </div>
     </div>
 
-
-    <script src="https://kit.fontawesome.com/96918c7946.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/96918c7946.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

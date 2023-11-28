@@ -14,6 +14,9 @@
     margin: 20px 0px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+}
+
+#energyhead{
     color: red;
 }
 
@@ -54,13 +57,39 @@
     cursor: pointer;
 }
 
-.catinfo h4{
+#energy{
     color: red;
+}
+
+#estate{
+    color: green;
+}
+
+#synergy{
+    color: grey;
+}
+
+#design{
+    color: rgb(0, 195, 255);
 }
 
 .catergory1:hover{
     background-color: hsla(0, 81%, 40%, 0.3);
 }
+
+
+#estateCategory:hover{
+    background-color: hsla(125, 81%, 40%, 0.247);
+}
+
+#designCategory:hover{
+    background-color: hsla(192, 82%, 40%, 0.445);
+}
+
+#synergyCategory:hover{
+    background-color: rgba(128, 128, 128, 0.450);
+}
+
 
 .catphoto{
     width: 12%;
@@ -78,6 +107,42 @@
 
 #electricSvg{
     background-image: url("./images/electricenergysvg.png");
+}
+
+#landSvg{
+    background-image: url("./images/landsvg.png");
+}
+
+#housingSvg{
+    background-image: url("./images/housingsvg.png");
+}
+
+#villaSvg{
+    background-image: url("./images/villasvg.png");
+}
+
+#cablesSvg{
+    background-image: url("./images/cablesvg.png");
+}
+
+#droneSvg{
+    background-image: url("./images/dronesvg.png");
+}
+
+#projectSvg{
+    background-image: url("./images/projectsvg.png");
+}
+
+#advisorsSvg{
+    background-image: url("./images/advisorssvg.png");
+}
+
+#agreementSvg{
+    background-image: url("./images/agreementsvg.png");
+}
+
+#synergyphoto{
+    background-image: url("./images/synergysvg.jpg");
 }
 
 .catinfo{
@@ -130,8 +195,8 @@
 }
   
 
-.card-body h5{
-    color: red;
+#cardtitle{
+    color: green;
     text-align: center;
 }
 
