@@ -3,158 +3,246 @@
     margin: 0;
 }
 
-body{
-    font-family:'Havelock Titling';
-}
 
-.nav{
-    background-color: hsla(0,0%,57.6%,.1);
-    backdrop-filter: blur(20px);
-    box-shadow: 0px 0px 5px 0px #000;
-    font-size: 1.1rem;
+.logonav{
+    background-color: black;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
-    width: 9vw;
-    height: 10vh;
+    height: 70%;
+    width: 9%;
     background-image: url("./images/logo.enc");
     background-size: 100% 100%;
-    margin-right: 70px;
 }
 
-.nav-link{
-    color: #000;
-    font-size: 14.5px;
-}
 
-.bolt{
-    font-size: 30px;
+.mainnavbar{
+    color: white;
+    background-color: #b10404;
+    width: 98.3vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
 }
-
-.mainNav{
-    margin-left: 70px;
-}
-
-.dropdown-menu{
-    z-index: 1;
-}   
 
 .mainul{
-    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.navbar-toggler{
-    background-image: url("./images/menubar.png");
-    background-size: 100% 100%;
-}
-
-.sliderButton{
-    border: none;
-}
-
-.sliderClass{
-    height: 50vh;
-}
-
-.carousel-item{
-    height: 50vh;
-}
-
-.carouselButton{
-    width: 7vw;
-    background-color: none;
-}
-
-.MainContent{
-    margin-top: 20px;
-}
-
-
-.MainHeading{
-    text-align: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 10px 0px;
-    margin: 60px 0px;
-    font-size: 30px;
-}
-
-
-
-.cardDivisions{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
+    width: 70%;
     height: 100%;
 }
 
-.card{
-    height: 90%;
-    width: 22vw;
+.mainli{
+    list-style: none;
+    font-size: 20px;
     cursor: pointer;
-    box-shadow: 0px 3px 4px 4px rgba(7, 6, 6, 0.7);
 }
 
-.card:hover{
-    transition: all 0.5s ease-in-out;
-    transform: scale(1.02);
-    box-shadow: 0px 3px 4px 4px rgba(7, 6, 6, 0.7);
+.mainli:hover{
+    color: green;
 }
 
 
-#estate:hover{
-    background-color: hsla(125, 81%, 40%, 0.447);
+.namediv{
+    background-image: url("https://images.unsplash.com/photo-1609253925210-c64083102ae5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZhbWlseSUyMHBob3RvfGVufDB8fDB8fHww");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
-#design:hover{
-    background-color: hsla(192, 82%, 40%, 0.445);
-}
-
-#energy:hover{
-    background-color: hsla(0, 90%, 51%, 0.35);
-}
-
-#synergy:hover{
-    background-color: rgba(128, 128, 128, 0.450);
-}
-
-.card-img-top{
-    height: 35vh;
+.colordiv{
+    background-color: rgba(255, 255, 255, 0.373);
+    position: absolute;
+    height: 100%;
     width: 100%;
-    border: 2px solid black;
+}
+
+.nameheading{
+    color: red;
+    font-size: 90px;
+    width: 70%;
+    margin: 80px 0px 0px 200px;
+}
+
+.categories{
+    background-color: #000;
+    padding-top: 50px;
+}
+
+
+.subcategory{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #000;
+}
+
+.categoryinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoryname{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+
+.explore{
+
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10%;
+}
+
+.explore:hover{
+    background-color: green;
     cursor: pointer;
 }
 
+.categoryimage{
+    width: 40%;
+}
 
-.card-title {
+#power{
+    background-image: url("https://images.unsplash.com/photo-1552862750-746b8f6f7f25?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxpZ2h0JTIwYnVsYnxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 15px 50px 15px 15px;
+}
+
+#techno{
+    background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 15px 50px 15px 15px;
+}
+
+#energy{
+    background-image: url("https://images.unsplash.com/photo-1613665813446-82a78c468a1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGVuZXJneXxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 15px 50px 15px 15px;
+}
+
+#estate{
+    background-image: url("https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZXN0YXRlfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 15px 50px 15px 15px;
+}
+
+.collabrations{
+    background-color: #000;
+    color: white;
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company1{
+    width: 25%;
+    height: 50%;
+}
+
+
+#axis{
+    background-image: url("./images/chanel.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#tata{
+    background-image: url("./images/tata\ power.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#karvy{
+    background-image: url("./images/karvy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+.aboutdiv{
+    height: 100vh;
+    background-image: url("./images/solarenergy.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     display: flex;
     justify-content: center;
-    font-weight: 600;
-    margin: 8px 0px;
+    align-items: center;
 }
 
-.card-text {
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    margin: 0px 5px;
-    font-size: 12px;
-}
-
-.card-body {
-    margin: 0;
-    padding: 0;
-}
-
-.button{
+.aboutheading{
+    color: red;
+    font-size: 70px;
+    width: 70%;
+    margin: 80px 0px 0px 200px;
     text-align: center;
-    margin: 10px 0px;
 }
 
+.aboutbutton{
+    text-align: center;
+}
+
+
+.query{
+    background-color: #000;
+    height: 80vh;
+}
+
+.queryhead{
+    color: red;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+.mainquery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+}
+
+.input{
+    outline: none;
+    margin: 5px 0px;
+    width: 70%;
+    padding: 12px;
+    background: transparent;
+    color: white;
+    border: 1.5px solid white;
+}
+
+.submitbutton{
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}
 
 .footer{
     background-color: #000;
@@ -165,6 +253,7 @@ body{
     justify-content: space-around;
     align-items: center;
     font-size: 12px;
+    font-family:'Havelock Titling';
 }
 
 .footer p:hover{
@@ -173,187 +262,60 @@ body{
 }
 
 
-/* Collabrations slider starts from here */
-
-.collabHeading{
-    text-align: center;
-    margin: 70px 0px 70px 0px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 10px 0px;
-    font-size: 30px;
-}
-
-.totalCollabration{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 100px;
-}
-
-
-.collabrations{
-    width: 40%;
-    margin-left: 30px;
-}
-
-.reviews{
-    width: 40%;
-    margin-left: 30px;
-}
-
-.slider-container {
-    width: 100%;
-    overflow: hidden;
-    height: 45vh;
-    margin-top: 30px;
-    box-shadow: 0px 4px 20px 2px rgba(39, 38, 38, 0.588);
-}
-
-.slider-track {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.sliding {
-    width: 100%;
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    color: #000;
-    padding: 20px;
-    text-align: center;
-    height: 45vh;
-}
 
 
 /* Style for better visibility */
 
 
-@media screen and (max-width:1200px) {
-
-    .sliderButton{
-        height: 65%;
-    }
-
-    .mainNav{
-        margin: 0;
-    }
-    
-    .sliderClass{
-        height: 35vh;
-    }
-
-    .carousel-item{
-        height: 40vh;
-    }
-
-    .card{
-        width: 22vw;
-        height: 62vh;
-    }
-
-    .sliding{
-        width: 80%;
-    }
-
-    .totalCollabration{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .collabrations{
-        width: 80%;
-        margin: 0;
-    }
-
-    .sliding{
-        width: 90%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .reviews{
-        width: 80%;
-    }
-
-    #reviews{
-        width: 100%;
-    }
-
-
-}
-
-@media screen and (max-width:600px) {
-
-    .logo{
-        width: 20vw;
-    }
-
-    .sliderClass{
-        height: 20vh;
-
-    }
-
-    .sliderButton{
-        height: 60%;
-    }
-
-    .carousel-item{
-        height: 20vh;
-    }
-
-
-}
-
-@media screen and (max-width:800px) {
-
-    .carousel-item{
-        height: 30vh;
-    }
-
-    .MainHeading{
-        margin-top: 80px;
-        margin-bottom: 40px;
-        border: 1px solid black;
-    }
-
-    .sliderClass{
-        height: 20vh;
-    }
-
-    
-    .cardDivisions{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card{
-        height: 95%;
-        width: 45%;
-        margin: 20px 0px;
-    }
-
-}
-
-@media screen and (max-width:450px) {
-    .sliderClass{
-        height: 25vh;
-    }
-
-    .card{
-        width: 70%;
-    }
-}
 
 @media screen and (max-width:950px) {
 
-    .MainHeading{
-        font-size: 22px;
+    .logo{
+        width: 20%;
     }
 
-    .collabHeading{
-        font-size: 18px;
+    .nameheading{
+        margin: 40px 0px 0px 40px;
+        font-size: 40px;
     }
+
+    .aboutheading{
+        font-size: 40px;
+        margin: 40px 0px 0px 60px;
+    }
+
+    .categoryname{
+        font-size: 25px;
+    }
+
+    .query{
+        height: 110vh;
+    }
+
+    .input{
+        width: 85%;
+    }
+
+    #power{
+        width: 70%;
+        margin: 0px;
+    }
+
+    #energy{
+        width: 70%;
+        margin: 0px;
+    }
+
+    #estate{
+        width: 70%;
+        margin: 0px;
+    }
+
+    #techno{
+        width: 70%;
+        margin: 0px;
+    }
+
 
     .footer{
         display: flex;
@@ -362,21 +324,17 @@ body{
         font-size: 15px;
     }
 
+    .mainli{
+        font-size: 12px;
+    }
+
+    .mainul{
+        width: 90%;
+    }
+
     .footer p{
         padding: 5px;
         text-align: center;
-    }
-
-    .card-title{
-        font-size: 20px;
-    }
-
-    #reviews{
-        font-size: 13px;
-    }
-
-    .card-text{
-        font-size: 12px;
     }
     
 }

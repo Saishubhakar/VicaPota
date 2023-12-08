@@ -3,6 +3,271 @@
     padding: 0;
 }
 
+
+.services{
+    background-color: yellow;
+    padding-bottom: 80px;
+}
+
+.energyheading{
+    font-size: 70px;
+    padding: 50px 0px 0px 50px;
+    color: rebeccapurple;
+    height: 80vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.servicesheading{
+    color: rebeccapurple;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 80px;
+}
+
+
+.smallinfo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.servicecategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    padding-top: 50px;
+}   
+
+.servicename{
+    color: rebeccapurple;
+    font-size: 30px;
+}
+
+.getintouch{
+    background-color: rebeccapurple;
+}
+
+.serviceimage{
+    background-color: aqua;
+    height: 60%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#solar{
+    background-image: url("./images/solarenergy.avif");
+}
+
+#TransmissionLines{
+    background-image: url("./images/power-transmission.jpg");
+}
+
+#hybrid{
+    background-image: url("./images/windenergy.avif");
+}
+
+#epc{
+    background-image: url("./images/epc.jpg");
+}
+
+
+.mission{
+    padding-top: 50px;
+    background-color: rgb(99, 73, 214);
+    height: 120vh;
+}
+
+.imagediv{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.missionimage{
+    margin: 60px 0px 30px 0px;
+    height: 100%;
+    width: 65%;
+    background-image: url("./images/missionbulb.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.missionheading{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.missioninfo{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+
+.vision{
+    height: 80vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.visioninfo{
+    height: 30%;
+    width: 40%;
+}
+
+.visionhead{
+    color: rebeccapurple;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.visionquote{
+    font-size: 38px;
+    padding-top: 20px;
+}
+
+.visionimage{
+    background-color: pink;
+    width: 40%;
+    height: 70%;
+    background-image: url("./images/pottery.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.team{
+    background-color: yellow;
+    height: 100vh;
+    padding: 20px 0px 0px 0px;
+}
+
+.teamheading{
+    color: rebeccapurple;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.partner{
+    height: 80vh;
+    width: 30%;
+}
+
+.partnerimage{
+    height: 70%;
+    background-image: url("./images/ch.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px 30px;
+}
+
+.partnername{
+    text-align: center;
+    font-size: 22px;
+    padding: 15px 0px;
+    color: rebeccapurple;
+}
+
+.partnerrole{
+    font-size: 18px;
+    text-align: center;
+}
+
+.about{
+    height: 90vh;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutcontainer{
+    margin: 30px 0px 5px 0px;
+}
+
+.aboutimage{
+    width: 40%;
+    height: 93%;
+    background-image: url("./images/trees.avif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mainabout{
+    width: 50%;
+}
+
+.abouthead{
+    font-size: 50px;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.aboutname{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+
+#cables{
+    background-image: url("./images/cables.avif");
+}
+
+#drone{
+    background-image: url("./images/drone.avif");
+}
+
+#prodesign{
+    background-image: url("./images/designing.avif");
+}
+
+#aviation{
+    background-image: url("./images/aviation.avif");
+}
+
+
+#land{
+    background-image: url("./images/land.avif");
+}
+
+#housing{
+    background-image: url("./images/house.avif");
+}
+
+#villa{
+    background-image: url("./images/villa.avif");
+}
+
+#brokerage{
+    background-image: url("./images/brokerage.avif");
+}
+
+
+
+
+
+/* Old css code */
+
 .navLinks{
     width: 70%;
     display: flex;
@@ -248,6 +513,73 @@
         box-shadow: none;
     }
 
+    .abouthead{
+        font-size: 30px;
+    }
+
+    .team{
+        height: 130vh;
+    }
+
+    .mission{
+        height: 140vh;
+    }
+
+    .missionheading{
+        font-size: 18px;
+    }
+
+    .missioninfo{
+        font-size: 22px;
+    }
+
+    .visionhead{
+        font-size: 20px;
+    }
+
+    .visionquote{
+        font-size: 27px;
+    }
+
+
+
+    .aboutimage{
+        width: 40%;
+        height: 40%;
+    }
+
+    .aboutinfo{
+        font-size: 12px;
+    }
+
+    .about{
+        height: 100vh;
+    }
+
+    .team{
+        height: 75vh;
+    }
+
+    .teamheading{
+        font-size: 40px;
+    }
+
+    .partnerimage{
+        height: 30%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .partnername{
+        font-size: 20px;
+    }
+
+    .partnerrole{
+        font-size: 13px;
+    }
+
+    
+
     .Energyintro{
         display: flex;
         flex-direction: column;
@@ -277,6 +609,22 @@
     
 }
 
+
+@media screen and (max-width:700px) {
+
+    .serviceimage{
+        width: 80%;
+    }
+
+    .energyheading{
+        font-size: 35px;
+        padding: 20px 0px 0px 30px;
+
+        height: 50vh;
+    }
+    
+}
+
 @media screen and (max-width:550px) {
 
     .catphoto{
@@ -300,3 +648,4 @@
         width: 60vw;
     }
 }
+

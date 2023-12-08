@@ -117,6 +117,7 @@
 }
 
 .query{
+    background-color: white;
     margin-top: 70px;
     display: flex;
     justify-content: center;
