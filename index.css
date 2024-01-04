@@ -3,48 +3,33 @@
     margin: 0;
 }
 
+.navbar{
+    border-bottom: 1px solid black;
+}
 
-.logonav{
-    background-color: black;
-    height: 18vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.logodiv{
+    width: 8vw;
+    height: 11vh;
+    margin-left: 20px;
 }
 
 .logo{
-    height: 70%;
-    width: 9%;
     background-image: url("./images/logo.enc");
+    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-
-.mainnavbar{
-    color: white;
-    background-color: #b10404;
-    width: 98.3vw;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-}
-
-.mainul{
+.navlinks{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 70%;
-    height: 100%;
+    width: 80vw;
+    margin-left: 100px;
 }
 
-.mainli{
-    list-style: none;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.mainli:hover{
-    color: green;
+.nav-link{
+    font-size: 18px;
+    color: #000;
 }
 
 

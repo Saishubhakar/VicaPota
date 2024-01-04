@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+.navlinks{
+    margin-left: 0px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+
+
 
 .services{
     background-color: yellow;
