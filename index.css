@@ -3,8 +3,17 @@
     margin: 0;
 }
 
+
 .navbar{
     border-bottom: 1px solid black;
+    font-family: 'Avenir Light';
+    font-size: 16px;
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logodiv{
@@ -25,77 +34,263 @@
     align-items: center;
     width: 80vw;
     margin-left: 100px;
+    list-style: none;
 }
 
 .nav-link{
-    font-size: 18px;
+    font-size: 20px;
     color: #000;
+    text-decoration: none;
 }
 
 
-.namediv{
-    background-image: url("https://images.unsplash.com/photo-1609253925210-c64083102ae5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZhbWlseSUyMHBob3RvfGVufDB8fDB8fHww");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
+/* Here */
+
+
+.energyheading{
+    font-size: 70px;
+    padding: 50px 0px 0px 50px;
+    color: rebeccapurple;
+    height: 80vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.colordiv{
-    background-color: rgba(255, 255, 255, 0.373);
-    position: absolute;
-    height: 100%;
-    width: 100%;
+.services{
+    background-color: yellow;
+    padding-bottom: 80px;
 }
 
-.nameheading{
-    color: red;
-    font-size: 90px;
-    width: 70%;
-    margin: 80px 0px 0px 200px;
+.servicesheading{
+    color: rebeccapurple;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 80px;
 }
 
-.categories{
-    background-color: #000;
+
+
+.smallinfo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.servicecategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
     padding-top: 50px;
 }
 
 
-.subcategory{
-    height: 60vh;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    background-color: #000;
+.servicename{
+    color: rebeccapurple;
+    font-size: 30px;
 }
 
-.categoryinfo{
+.getintouch{
+    background-color: rebeccapurple;
+}
+
+.serviceimage{
+    height: 60%;
     width: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#solar{
+    background-image: url("./images/solarenergy.avif");
+}
+
+#lines{
+    background-image: url("./images/power-transmission.jpg");
+}
+
+#hybrid{
+    background-image: url("./images/windenergy.avif");
+}
+
+#epc{
+    background-image: url("./images/epc.png");
+    height: 70%;
+    width: 37%;
+}
+
+
+.mission{
+    padding-top: 50px;
+    background-color: rgb(99, 73, 214);
+    height: 120vh;
+}
+
+.imagediv{
+    height: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
 }
 
-.categoryname{
+.missionimage{
+    margin: 60px 0px 30px 0px;
+    height: 100%;
+    width: 65%;
+    background-image: url("./images/missionbulb.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.missionheading{
     text-align: center;
-    font-size: 40px;
-    color: red;
-}
-
-.explore{
-
-    background-color: red;
-    border: none;
     color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 10%;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.missioninfo{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.vision{
+    height: 80vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.visioninfo{
+    height: 30%;
+    width: 40%;
+}
+
+.visionhead{
+    color: rebeccapurple;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.visionquote{
+    font-size: 38px;
+    padding-top: 20px;
+}
+
+.visionimage{
+    background-color: pink;
+    width: 40%;
+    height: 70%;
+    background-image: url("./images/pottery.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.team{
+    background-color: yellow;
+    height: 100vh;
+    padding: 20px 0px 0px 0px;
+}
+
+.teamheading{
+    color: rebeccapurple;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.partner{
+    height: 80vh;
+    width: 30%;
+}
+
+.partnerimage{
+    height: 70%;
+    background-image: url("./images/ch.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px 30px;
+}
+
+.partnername{
+    text-align: center;
+    font-size: 22px;
+    padding: 15px 0px;
+    color: rebeccapurple;
+}
+
+.partnerrole{
+    font-size: 18px;
+    text-align: center;
+}
+
+.about{
+    height: 90vh;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutcontainer{
+    margin: 30px 0px 5px 0px;
+}
+
+.aboutimage{
+    width: 40%;
+    height: 93%;
+    background-image: url("./images/trees.avif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mainabout{
+    width: 50%;
+}
+
+.abouthead{
+    font-size: 50px;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.aboutname{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.possibilities{
+    height: 80vh;
+    background-color: rgb(61, 51, 153);
+    padding: 100px 0px 0px 100px;
+}
+
+.pheading{
+    font-size: 60px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pinfo{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0px 0px 0px;
+    width: 90%;
+}
+
 
 .explore:hover{
     background-color: green;
@@ -232,13 +427,12 @@
 .footer{
     background-color: #000;
     color: #fff;
-    margin: 30px 0px 0px 0px;
     height: 20vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 12px;
-    font-family:'Havelock Titling';
+    font-size: 18px;
+    font-family: 'Avenir Light';
 }
 
 .footer p:hover{
@@ -247,6 +441,10 @@
 }
 
 
+#partner1{
+    background-color: wheat;
+    background-image: url("./images/member.png");
+}
 
 
 /* Style for better visibility */

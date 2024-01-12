@@ -241,8 +241,13 @@
     background-image: url("./images/cables.avif");
 }
 
+
 #drone{
     background-image: url("./images/drone.avif");
+}
+
+#design{
+    background-image: url("./images/design.png");
 }
 
 #prodesign{
@@ -509,6 +514,301 @@
 
 .fa{
     color: #000;
+}
+
+
+/* Solar energy page */
+
+.solardiv{
+    margin: 0px 50px;
+}
+
+.solarimg{
+    background-color: red;
+    margin: 40px 30px 0px 60px;
+    height: 90vh;
+    width: 90%;
+    background-image: url("./images/solarenergy.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.solardiv{
+    padding: 0px 60px;
+}
+
+
+
+.solarheading{
+    margin-top: 40px;
+    font-size: 55px;
+    font-family: 'Avenir Light';
+    color: rgb(99, 73, 214);
+    margin-bottom: 10px;
+}
+
+.solarinfo{
+    font-size: 18px;
+    font-family: 'Avenir Light';
+    letter-spacing: 1px;
+    margin-top: 7px;
+}
+
+.solarbutton{
+    background-color: rgb(99, 73, 214);
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 100px 5px 70px 5px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-family: 'Avenir Light';
+}
+
+.solarouter{
+    background-color: rgb(99, 73, 214);
+}
+
+.solarmain{
+    margin-top: 40px;
+    color: white;
+}
+
+.solarmainhead{
+    padding-top: 50px;
+    font-family: 'Avenir Light';
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.solarmaininfo{
+    margin: 20px 60px 0px 100px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Avenir Light';
+    width: 70vw;
+}
+
+.solarmainimage{
+    margin-top: 90px;
+    background-image: url("./images/solarenergy2.png");
+    margin: 20px 60px 0px 100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 75vw;
+}
+
+.solarenergyimages{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.solarimagediv{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+}
+
+.solarimage1{
+    width: 47%;
+    height: 80%;
+    background-image: url("./images/solarenergy3.png");
+    background-size: 100% 100%;
+}
+
+.solarimage2{
+    width: 47%;
+    height: 80%;
+    background-image: url("./images/solarenergy4.png");
+    background-size: 100% 100%;
+}
+
+.bootinfo{
+    font-size: 15px;
+}
+
+.mainbootdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bootinfo{
+    width: 70%;
+    font-size: 18px;
+}
+
+.bootpoints{
+    width: 70%;
+    font-size: 15px;
+}
+
+.solarimgdiv{
+    margin-top: 50px;
+    background-image: url("./images/solarenergy5.png");
+    margin: 20px 60px 10px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 75vw;
+}
+
+/* Transmission lines */
+
+#electriclines{
+    background-image: url("./images/electriclines.png");
+}
+
+.transinfo{
+    width: 80%;
+}
+
+.transmain{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.categories{
+    margin-top: 2px;
+    background-color: rgb(99, 73, 214);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 44px;
+    color: #fff;
+    padding: 50px 0px 80px 0px;
+    font-family: 'Avenir Light';
+}
+
+.catergoryhead{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Avenir Light';
+}
+
+.cateinfo{
+    padding: 10px 0px 40px 0px;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    font-family: 'Avenir Light';
+    font-size: 18px;
+}
+
+.subli{
+    list-style: none;
+    color: #fff;
+    text-align: center;
+    font-family: 'Avenir Light';
+    font-size: 18px;
+}
+
+.categoryimage{
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 20px 0px;
+}
+
+
+/* Hybrid projects */
+
+#electriclines2{
+    background-image: url("./images/hybridprojects.png");
+}
+
+
+/* Synergy */
+
+.syndiv{
+    margin: 0px 50px;
+}
+
+.synhead{
+    text-align: center;
+}
+
+.subpages{
+    display: flex;
+    justify-content: space-between;
+    height: 200vh;
+    align-items: end;
+    margin: 120px 0px;
+}
+
+.sections{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 45%;
+}
+
+.section1{
+    height: 100%;
+}
+
+.section2{
+    height: 100%;
+}
+
+
+
+.synimage{
+    background-color: green;
+    background-repeat: no-repeat;
+    height: 31%;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+
+.hoversynimage{
+    height: 100%;
+}
+
+#OM{
+    background-image: url("./images/OandM.jpg");
+}
+
+#Advisories{
+    background-image: url("./images/advisories.avif");
+}
+
+#RandM{
+    background-image: url("./images/riskandmanagement.avif");
+}
+
+#ProjectM{
+    background-image: url("./images/Project\ management.avif");
+}
+
+#NDA{
+    background-image: url("./images/Non\ disclosure\ agreement.avif");
+}
+
+#AandD{
+    background-image: url("./images/aviation.avif");
+}
+
+#DJ{
+    background-image: url("./images/DandA.png");
 }
 
 
