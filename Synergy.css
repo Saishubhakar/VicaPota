@@ -104,7 +104,6 @@
 
 .memberinfo{
     margin: 30px 0px 0px 0px;
-    background-color: rgb(99, 73, 214);
 }
 
 .memberinfo a{
@@ -142,4 +141,50 @@
 
 .buttonL{
     margin: 50px 0px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .logodiv{
+        width: 20vw;
+    }
+
+    .SynSub{
+        height: 100vh;
+    }
+
+    .SynSubimg{
+        height: 50%;
+        width: 45%;
+    }
+
+
+    .SynSubheading{
+        font-size: 40px;
+    }
+
+    .OMdesc{
+        font-size: 14px;
+    }
+
+    .SynSubbutton{
+        width: 40vw;
+        padding: 10px 5px;
+        margin: 20px 0px 0px 0px;
+        font-size: 14px;
+        border-radius: 0%;
+    }
+
+    .OMsubheading{
+        font-size: 18px;
+    }
+
+    .solarbutton{
+        margin: 20px 0px 0px 0px;
+        padding: 5px;
+        border-radius: 0%;
+    }
+
+
 }

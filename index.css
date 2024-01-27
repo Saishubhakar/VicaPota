@@ -453,6 +453,14 @@
 
 @media screen and (max-width:950px) {
 
+    .energyheading{
+        height: 60vh;
+    }
+
+    .navlinks{
+        margin: 10px;
+    }
+
     .logo{
         width: 20%;
     }
@@ -520,4 +528,91 @@
         text-align: center;
     }
     
+}
+
+
+@media screen and (max-width:600px) {
+
+    .energyheading{
+        font-size: 40px;
+    }
+
+    .serviceimage, #epc{
+        width: 80%;
+    }
+
+    .mission{
+        background-color: red;
+        height: 100vh;   
+    }
+
+    .missioninfo{
+        font-size: 25px;
+    }
+
+    .vision{
+        margin-top: 0px;
+    }
+
+    .visionquote{
+        font-size: 25px;
+    }
+
+    .abouthead{
+        font-size: 30px;
+    }
+
+    .team{
+        height: 80vh;
+    }
+
+    .teamheading{
+        font-size: 40px;
+    }
+
+    .partnerimage{
+        height: 40%;
+        width: 30vw;
+        margin: 0px;
+    }
+
+    .partnername{
+        font-size: 20px;
+    }
+
+    .partnerrole{
+        font-size: 15px;
+    }
+
+    .about{
+        height: 110vh;
+    }
+    
+    .aboutimage{
+        height: 50%;
+        width: 45%;
+    }
+    
+    .abouthead{
+        font-size: 25px;
+    }
+
+    .aboutname{
+        font-size: 18px;
+    }
+
+    .aboutinfo{
+        width: 100%;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .possibilities{
+        padding: 40px 0px 0px 30px;
+        height: 62vh;
+    }
+
+    .pheading{
+        font-size: 32px;
+    }
 }

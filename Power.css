@@ -287,14 +287,9 @@
 
 
 
+
 /* Old css code */
 
-.navLinks{
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 .synHead{
     margin: 20px 0px;
@@ -513,7 +508,7 @@
 }
 
 .fa{
-    color: #000;
+    color: white;
 }
 
 
@@ -784,7 +779,7 @@
 }
 
 #OM{
-    background-image: url("./images/OandM.jpg");
+    background-image: url("./images/OandMimg.jpg");
 }
 
 #Advisories{
@@ -938,30 +933,28 @@
 
         height: 50vh;
     }
-    
-}
 
-@media screen and (max-width:550px) {
+    .solarimg{
+        margin: 15px 0px 0px 15px;
+    }
 
-    .catphoto{
-        height: 40%;
-        width: 15%;
+    .solardiv{
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .solarheading{
+        font-size: 35px;
+    }
+
+    .transinfo{
+        width: 100%;
+        font-size: 14px;
     }
     
-    .divOne{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .SynSubheading{
+        font-size: 18px;
     }
 
-    .divTwo{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card{
-        width: 60vw;
-    }
+    
 }
-
