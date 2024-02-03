@@ -81,25 +81,26 @@
 
 .member{
     width: 40%;
+    height: 100%;
     text-align: center;
 }
 
 .memberimage{
-    background-image: url("./images/member.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 70%;
 }
 
 .membername{
     color: rgb(99, 73, 214);
     margin: 10px 0px;
     font-size: 32px;
+    text-align: left;
 }
 
 .memberposition{
     font-size: 24px;
     margin: 10px 0px;
+    text-align: left;
 }
 
 .memberinfo{
@@ -121,22 +122,23 @@
 .maindiv{
     text-align: center;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 .CEOimg{
     background-color: red;
-    width: 36%;
-    height: 90vh;
+    width: 35%;
     background-image: url("./images/member.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 40px 0px;
+    height: 90vh;
 }
 
 .information{
-    width: 60%;
+    width: 40%;
+
 }
 
 .buttonL{
@@ -184,6 +186,10 @@
         margin: 20px 0px 0px 0px;
         padding: 5px;
         border-radius: 0%;
+    }
+
+    .OMouter{
+        background-color: red;
     }
 
 

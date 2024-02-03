@@ -5,6 +5,8 @@ let button = document.getElementById("submitbutton");
 let nameSmall = document.getElementById("nameSmall");
 let emailSmall = document.getElementById("emailSmall");
 let query = document.getElementById("query");
+let number = document.getElementById("number")
+let numberSmall = document.getElementById("numberSmall")
 
 button.addEventListener("click",(e)=>{
     let text = Name.innerText
@@ -29,9 +31,10 @@ let validateInput = (input, regex, smallElement)=> {
 
 let nameRegex = /^[a-zA-Z-' ]+$/;
 let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
+let numberRegex = /^(\()?\d{3}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/
 
 
 
 validateInput(Name, nameRegex, nameSmall)
 validateInput(Email, emailRegex, emailSmall)
+validateInput(number, numberRegex, numberSmall)

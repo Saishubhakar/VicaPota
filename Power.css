@@ -12,25 +12,6 @@
 
 
 
-.services{
-    background-color: yellow;
-    padding-bottom: 80px;
-}
-
-.energyheading{
-    font-size: 70px;
-    padding: 50px 0px 0px 50px;
-    color: rebeccapurple;
-    height: 80vh;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.servicesheading{
-    color: rebeccapurple;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 80px;
-}
 
 
 .smallinfo{
@@ -46,11 +27,6 @@
     height: 90vh;
     padding-top: 50px;
 }   
-
-.servicename{
-    color: rebeccapurple;
-    font-size: 30px;
-}
 
 .getintouch{
     background-color: rebeccapurple;
@@ -222,12 +198,6 @@
 
 .mainabout{
     width: 50%;
-}
-
-.abouthead{
-    font-size: 50px;
-    text-align: center;
-    color: rebeccapurple;
 }
 
 .aboutname{
@@ -808,6 +778,7 @@
 
 
 @media screen and (max-width:1000px) {
+    
 
     .logo{
         width: 20vw;
@@ -849,7 +820,32 @@
     }
 
     .visionquote{
-        font-size: 27px;
+        font-size: 15px;
+    }
+
+    .solarmainhead{
+        font-size: 25px;
+        margin: 0px 0px 0px 40px;
+        text-decoration: underline;
+    }
+
+    .solarmaininfo{
+        margin: 20px 0px 0px 35px;
+        width: 85vw;
+    }
+
+    .solarmainimage{
+        margin: 20px 0px 0px 40px;
+    }
+
+    .boothead{
+        font-size: 35px;
+    }
+
+    .bootpoints{
+        width: 90vw;
+        margin: 20px 0px 0px 30px;
+        
     }
 
 
