@@ -83,6 +83,7 @@
 .buttondiv{
     padding: 10px 0px;
     text-align: center;
+    margin-top: 30px;
 }
 
 #linkedin:hover{
@@ -98,6 +99,17 @@
     text-align: center;
 }
 
+.condiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactContainer{
+    width: 40%;
+    margin: 20px 0px;
+}
+
 .queryHead{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -111,12 +123,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 .signbox{
     height: 100%;
-    width: 35%;
+    width: 100%;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -154,7 +166,7 @@
 
 #query{
     margin-top: 20px;
-    padding: 4px 0px 0px 10px;
+    padding: 0px 0px 0px 6px;
     outline: none;
     border: 2px solid black;
     font-size: 17px;
@@ -179,17 +191,23 @@
 }
 
 .links{
-    /* background-color: green; */
     display: flex;
-    justify-content: center;
-    width: 98.5vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
     margin: 50px 0px 20px 0px;
 
 }
 
+.linkshead{
+    font-size: 35px;
+    text-decoration: underline;
+}
+
 .Linkul{
     height: 20vh;
-    width: 50vw;
+    width: 100%;
     margin: 0px 30px;
     display: flex;
     justify-content: space-between;
