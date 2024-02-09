@@ -248,8 +248,19 @@ i{
     color: white;
 }
 
+.conu{
+    font-size: 24px;
+    margin: 40px 0px;
+}
+
 
 @media screen and (max-width:1000px){
+
+    .condiv{
+        display: flex;
+        flex-direction: column;
+    }
+
     .sliderButton{
         height: 65%;
     }
@@ -276,10 +287,6 @@ i{
         text-align: center;
     }
 
-    .signbox{
-        width: 50%;
-    }
-
 
 }
 
@@ -293,9 +300,24 @@ i{
         width: 40%;
     }
 
-    .signbox{
-        width: 70%;
+    .contactContainer{
+        width: 82vw;
     }
+
+    .signbox{
+        width: 100%;
+    }
+
+    .linkshead{
+        width: 90vw;
+        text-align: center;
+    }
+
+    .links{
+        width: 90vw;
+    }
+
+    
 
     .socialmediaLinks{
         font-size: 21px;

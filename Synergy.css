@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+
+.energyheading{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .SynSub{
     display: flex;
     justify-content: space-around;
@@ -89,6 +94,22 @@
     background-image: url("./images/ceoFa.jpg");
 }
 
+#adv{
+    background-image: url("./images/advisors.avif");
+}
+
+#lovg{
+    background-image: url("./images/vlogo-1.png");
+}
+
+#avod{
+    background-image: url("./images/advocacy.webp");
+}
+
+#govw{
+    background-image: url("./images/govworks.avif");
+}
+
 .teammembers{
     text-align: left;
     margin: 40px 0px 0px 0px;
@@ -167,10 +188,43 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) {
 
     .logodiv{
-        width: 20vw;
+        width: 40vw;
+    }
+
+    .aboutHead{
+        font-size: 45px;
+    }
+
+    .fohead{
+        font-size: 36px;
+    }
+
+    .membername{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .maindiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .memberinfo{
+        width: 86%;
+    }
+
+    .mmbi{
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .CEOimg{
+        height: 60vh;
+        width: 80%;
+        margin: 0px;
     }
 
     .SynSub{
@@ -207,10 +261,6 @@
         margin: 20px 0px 0px 0px;
         padding: 5px;
         border-radius: 0%;
-    }
-
-    .OMouter{
-        background-color: red;
     }
 
 

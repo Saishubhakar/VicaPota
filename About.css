@@ -3,6 +3,43 @@
     padding: 0;
 }
 
+.Th{
+    margin: 30px 0px;
+    font-size: 34px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.teammem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    height: 85vh;
+    cursor: pointer;
+    border: 3px solid black;
+    box-shadow: 0px 3px 4px 4px rgba(7, 6, 6, 0.3);
+    width: 18rem;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 3px 4px 4px rgba(7, 6, 6, 0.7);
+    transition: all 0.5s ease-in-out;
+  }
+
+.cardb{
+    text-align: center;
+}
+
+
+#cardtext{
+    font-size: 14px;
+}
+
+
 .nav{
     font-family: 'Hind Siliguri', sans-serif;
     background-color: hsla(0,0%,57.6%,.1);
@@ -28,9 +65,6 @@
     margin-left: 70px;
 }
 
-.dropdown{
-    z-index: 1;
-}
 
 .mainul{
     width: 100%;
@@ -56,18 +90,6 @@
     text-align: center;
 }
 
-.Partners{
-    margin: 30px 20px 0px 20px;
-    height: 30vh;
-    display: flex;
-    justify-content: space-around;
-}
-
-.row1{
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-}
 
 .fohead{
     font-size: 30px;
@@ -78,18 +100,6 @@
     background-image: url("./images/ceoFa.jpg");
 }
 
-.row2{
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.company1{
-    background-color: pink;
-    height: 80%;
-    width: 25%;
-    margin: 10px;
-}
 
 .MotivesHead{
     margin: 30px 0px;
@@ -215,6 +225,15 @@
 }
 
 @media screen and (max-width:1000px){
+
+    .teammem{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        height: 70vh;
+    }
 
     .aboutHead{
         font-size: 25px;

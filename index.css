@@ -15,6 +15,7 @@
 }
 
 
+
 .logodiv{
     width: 18%;
     height: 12vh;
@@ -28,19 +29,20 @@
 }
 
 
+
 .navlinks{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-left: 100px;
+    justify-content: end;
     list-style: none;
     width: 100%;
 }
 
 .nav-link{
-    font-size: 20px;
+    font-size: 17px;
     color: #000;
     text-decoration: none;
+    margin: 0px 30px;
 }
 
 
@@ -60,9 +62,19 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     color: white;
+}
+
+.vahead{
+    width: 30vw;
+    height: 12vh;
+    background-image: url("./images/vlogo-1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    margin-left: -20px;
 }
 
 #estateopen{
@@ -104,6 +116,19 @@
     padding-top: 50px;
 }
 
+.pAp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/pAp.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 15vh;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
 
 .servicename{
     color: white;
@@ -119,6 +144,7 @@
     width: 50%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    cursor: pointer;
 }
 
 #solar{
@@ -145,12 +171,17 @@
     background-image: url("./images/design.png");
 }
 
-#epc{
-    background-image: url("./images/epc.png");
-    height: 70%;
-    width: 37%;
+#preeng{
+    background-image: url("./images/preeng.avif");
 }
 
+#tel{
+    background-image: url("./images/telecom.avif");
+}
+
+#civwor{
+    background-image: url("./images/civwor.avif");
+}
 
 .mission{
     padding-top: 50px;
@@ -174,6 +205,21 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
+}
+
+.serinf{
+    background-color: rgba(7, 6, 6, 0.3);
+    height: 90%;
+    display: flex;
+    align-items: center;
+    display: none;
+    color: white;
+    font-size: 22px;
+    margin: 10px 20px 0px 20px;
+}
+
+.serviceimage:hover .serinf{
+    display: flex;
 }
 
 .missionheading{
@@ -221,7 +267,6 @@
 }
 
 .visionimage{
-    background-color: pink;
     width: 40%;
     height: 70%;
     background-image: url("./images/pottery.avif");
@@ -229,20 +274,6 @@
     background-size: 100% 100%;
 }
 
-
-.team{
-    background-color: yellow;
-    height: 100vh;
-    padding: 20px 0px 0px 0px;
-}
-
-.teamheading{
-    color: rebeccapurple;
-    text-align: center;
-    padding-top: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
-}
 
 .partners{
     display: flex;
@@ -271,33 +302,11 @@
     color: rebeccapurple;
 }
 
-.espar{
-    display: flex;
-    color: white;
-}
-
-.esinfo{
-    width: 70%;
-}
-
-.esmore{
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 20%;
-    margin: auto 0;
-}
-
-.esexp{
-    font-size: 20px;
-    text-decoration: underline;
-}
-
 .Linkli{
     list-style: none;
     font-size: 30px;
 }
+
 
 .partnerrole{
     font-size: 18px;
@@ -577,7 +586,7 @@
     }
 
     .logo{
-        width: 20%;
+        width: 30vw;
     }
 
     .nameheading{

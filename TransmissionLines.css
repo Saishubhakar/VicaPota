@@ -96,6 +96,11 @@
 
 
     @media screen and (max-width:600px) {
+        .logodiv{
+            width: 40vw;
+            margin: 0;
+        }
+
         .mainNav{
             margin: 0;
         }
