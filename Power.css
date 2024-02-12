@@ -36,7 +36,6 @@
 
 .servicecategory{
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: 90vh;
@@ -73,29 +72,30 @@
     background-image: url("./images/epc.jpg");
 }
 
-
-.mission{
-    padding-top: 50px;
-    background-color: rgb(99, 73, 214);
-    height: 120vh;
-}
-
+/* 
 .imagediv{
     height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+} */
+
+.mission{
+    background-color: rgb(99, 73, 214);
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
 }
 
 .missionimage{
-    margin: 60px 0px 30px 0px;
     height: 100%;
     width: 65%;
     background-image: url("./images/missionbulb.avif");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
 
 .missionheading{
@@ -241,7 +241,6 @@
 
 .aboutname{
     text-align: center;
-    font-size: 20px;
     padding: 20px 0px;
 }
 
@@ -535,7 +534,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 100px 5px 70px 5px;
+    margin: 30px 5px 5px 5px;
     cursor: pointer;
     border-radius: 16px;
     font-family: 'Avenir Light';

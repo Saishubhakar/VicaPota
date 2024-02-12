@@ -19,7 +19,6 @@
 .logodiv{
     width: 18%;
     height: 12vh;
-    margin-left: 20px;
 }
 
 .logo{
@@ -67,6 +66,11 @@
     color: white;
 }
 
+.engco{
+    background-image: url("./images/design.png");
+    background-size: 100% 100%;
+}
+
 .vahead{
     width: 30vw;
     height: 12vh;
@@ -109,7 +113,7 @@
 
 .servicecategory{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: space-around;
     align-items: center;
     height: 90vh;
@@ -129,14 +133,35 @@
     margin-top: 90px;
 }
 
+#pAp{
+    background-image: url("./images/pAp.png");
+    background-repeat: no-repeat;
+    margin-top: 90px;
+    height: 15vh;
+    width: 40%;
+    display: flex;
+    align-items: start;
+    background-size: 100% 100%;
+}
+
+.sesec{
+    color: white;
+    width: 30%;
+}
 
 .servicename{
     color: white;
     font-size: 30px;
 }
 
+.adcatin{
+    color: white;
+    margin: 20px 0px;
+}
+
 .getintouch{
     background-color: rebeccapurple;
+    margin: auto 0;
 }
 
 .serviceimage{
@@ -184,27 +209,24 @@
 }
 
 .mission{
-    padding-top: 50px;
     background-color: rgb(99, 73, 214);
-    height: 120vh;
-}
-
-.imagediv{
-    height: 80%;
+    height: 80vh;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding: 30px;
 }
 
 .missionimage{
-    margin: 60px 0px 30px 0px;
     height: 100%;
     width: 65%;
     background-image: url("./images/missionbulb.avif");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
 
+.misinf{
+    margin: 0px 0px 0px 20px;
 }
 
 .serinf{
@@ -375,10 +397,15 @@
     color: rgb(22, 66, 100);
 }
 
+.np{
+    text-align: center;
+    margin: 20px 0px;
+}
+
 .aboutname{
     text-align: center;
-    font-size: 20px;
     padding: 20px 0px;
+    font-size: 40px;
 }
 
 .possibilities{
@@ -400,6 +427,18 @@
     width: 90%;
 }
 
+.Linkul{
+    display: flex;
+    justify-content: space-around;
+    width: 25vw;
+    margin: 30px 0px 0px 0px;
+}
+
+.hfa:hover{
+    transform: scaleX(1.05);
+    font-size: 40px;
+    transition: all 0.2s ease-in-out;
+}
 
 .explore:hover{
     background-color: green;
@@ -447,7 +486,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 100px 5px 70px 5px;
+    margin: 30px 5px 5px 5px;
     cursor: pointer;
     border-radius: 16px;
     font-family: 'Avenir Light';
