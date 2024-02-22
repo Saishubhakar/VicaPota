@@ -178,6 +178,10 @@
     height: 90vh;
 }
 
+#coo{
+    background-image: url("./images/coo.jpg");
+}
+
 .information{
     width: 50%;
 
