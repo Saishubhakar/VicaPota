@@ -11,11 +11,10 @@
 }
 
 .logo{
-    width: 9vw;
+    width: 12vw;
     height: 10vh;
     background-image: url("./images/logo.enc");
     background-size: 100% 100%;
-    margin-right: 70px;
 }
 
 .nav-link{
